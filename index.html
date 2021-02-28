@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="google-site-verification" content="D2ARJDVwyE_DsEmwaumR5Bb3LysCaUjaqxTIarUTc4U" />
+	<meta charset="utf-8" />
+	<title>Guido di Lauro</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css--> 
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/icon.png">
+	
+
+
+	<!-- just in case viewer is using Internet Explorer -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+
+<body>
+	
+	<!-- Header-->
+	<script>
+		
+		var images = ['foto1.jpg', 'foto2.jpg', 'foto3.jpg', 'foto4.jpg', 'foto5.jpg',  'foto6.jpg'];
+		var img = images[Math.floor(Math.random() * images.length)];
+		document.body.innerHTML = "<style> header { background-image: url(img/" + img + ");}</style>"
+		
+	</script>
+
+	<header>
+
+		<h1>Guido di Lauro</h1>
+		<p>Junior DevOps</p>
+
+
+	</header>
+	
+	<div class="container">
+		
+		<!-- Introduction-->
+		<section class="center">
+			<h1>Welcome!</h1>
+			<p>
+				I am 23 year old italian guy with southern origin who lives in Milan. 
+				I have a degree in Computer Science at Università degli Studi di Milano.
+				Currently I am a doing a master in Software Engineering and I am working as DevOps in multinational IT Company.
+				I love sport and in my spare time i try to keep me fit, trying to go in gym or going for a run outside. My favourite sports are tennis, ski and Formula 1. 
+			</p>
+		</section>
+		
+		<hr>
+		
+		<!-- Gallery Block-->
+		<section class="gallery">
+			<h1 class="center">Gallery</h1>
+			<div class="row">
+				<img src="img/foto1.jpg" class="grid-2">
+			
+				<img src="img/foto7.jpg" class="grid-2">
+			
+				<img src="img/foto3.jpg" class="grid-2">
+			</div>
+			<div class="row">
+				<img src="img/foto4.jpg" class="grid-2" >
+			
+				<img src="img/foto2.jpg" class="grid-2" >
+			
+				<img src="img/foto6.jpg" class="grid-2" >
+			</div>
+		</section>
+		
+		<hr>
+		
+		<!-- Testimonials-->	
+		<section class="testimonial">
+			<div class="row">
+				<div class="grid-2">
+					<img src="img/cloud.png">
+					<h2>Cloud</h2>
+					<p>Working on cloud solutions and architectures based on IaaS and SaaS</p>
+				</div>
+				
+				<div class="grid-2">
+					<img src="img/java.png">
+					<h2>Web development</h2>
+					<p>Intrested in developing application based on Java, Swift, Javascipt, with focus on CD/CI stages</p>
+				</div>
+		
+				<div class="grid-2">
+					<img src="img/docker.png">
+					<h2>Container</h2>
+					<p>Deploy high availability solutions based on container tecnologies like Docker</p>
+				</div>
+			</div>
+		</section>
+	</div> <!-- End container-->
+	
+	<!-- Spotlight -->
+	<section class="spotlight">
+		<div class="container">
+			<div class="row">
+				<div class="grid-3">
+					<img src="img/computer-programmer-icon-3.jpg">
+				</div>
+				<div class="grid-3">
+					<h1>Hardening Golo</h1>
+					<p>During the exchange period in France, I've contributed to the development of a new feature of a new programming language based on JVM.
+						For this language created at INSA Lyon, Golo, I've implemented a testing functionality based on decorators. 
+					</p>
+					<div class="container">
+						<a href="https://github.com/guidodl/HardenedGolo/commits/develop">View Project</a>
+						<a href="snake.html">Snake 	&#128578</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- New container-->
+	<div class="container">
+	
+		<section class="education">	
+			<h2>B.S. Computer Science from the University of Milan.</h2>
+		</section>
+		
+		<hr>
+			
+		<!--Experience Tables-->
+		<section class="experience">
+			<div class="row">
+				<div class="grid-2">
+					<h2>Ntt Data - Milan</h2>
+					<p>Apr. 2019 - Currently</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						<li>Managing and setting up monitoring tools (Zabbix, Elastic Stack)</li>
+						<li>Setting up multiple injection pipelines for data analysis through Logstash  (Ruby script)</li>
+						<li>Building and setting up new tools and infrastructure on Docker containers (Swarm, Compose)</li>
+						<li>Working on ways to automate and improve development and release processes based on Google Cloud Platform (Jenkins, python, bash scripting)</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid-2">
+					<h2>Ntt Data - Milan</h2>
+					<p>(Outsourcing Intern)</p>
+					<p>Apr. 2019 - Jul. 2019</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						Working on thesis project:
+						<li>Developing a high reliability application monitoring architecture based on ELK Stack using Docker containers.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid-2">
+					<h2>Università degli Studi di Milano</h2>
+					<p>Sept. 2015 - Nov. 2019</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						Main courses:
+						<li>Algorithm and Data Structures</li>
+						<li>Continuous and discrete mathematic</li>
+						<li>Software Engineering</li>
+						<li>Operating Systems</li>
+						<li>Databases</li>
+						<li>Statistic and data analysis</li>
+						<li>Computer networks</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid-2">
+					<h2>Scientific High School - Campobasso</h2>
+					<p>Sept. 2010 - Sept. 2015</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						<li>Focus on scientific subjects like maths, phisics, biology</li>
+						<li>Also classical stuff like latin, history and philosophy</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<hr>
+		
+		<section>
+			<!--List of skills-->
+			<div class="row">
+				<div class="grid-2">
+					<h1>Skills</h1>
+					<ul>
+						<li>Java</li>
+						<li>Python</li>
+						<li>Jenkins</li>
+						<li>Docker</li>
+						<li>Google Cloud Platform</li>
+						<li>Git</li>
+					</ul>
+				</div>
+				
+				<div class="grid-4">
+					<h1>In Conclusion</h1>
+					<p>
+						Enthusiastic DevOps with 1+ year experience participating in IaaC product development and automation.
+						Currently enrolled in Master of Computer Science at Università degli Studi di Milano. 
+						If you want to contact me send me an <a href="mailto:guidodl96@gmail.com" target="_top">email</a> or send me a message on <a href="https://www.linkedin.com/in/guido-di-lauro/" target="_top">Linkedin</a>.
+					</p>
+				</div>
+			</div>
+		</section>
+		
+		
+		
+		<!--Footer-->
+		<footer class="center">
+			<hr>
+			<span>&copy; Guido di Lauro 2020</span>
+		</footer>
+		
+	</div><!-- End Container -->
+	
+</body>
+</html>
