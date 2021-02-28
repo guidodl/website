@@ -126,6 +126,12 @@ footer hr {
 
 
 /* ------------------- Grid -------------------*/
+.item{
+  width: 280px;
+  height: 200px;
+  display: table-cell;
+  vertical-align: middle;
+}
 
 .container {
   max-width: 50em;
@@ -179,6 +185,7 @@ footer hr {
   padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 @media screen and (min-width: 40em) {
@@ -199,7 +206,11 @@ footer hr {
   margin-bottom: 1%;
   margin-top: 1%;
   width: 50%;
+  display: table-cell;
+  vertical-align: middle;
 }
+
+
 
 .gallery a img {
   -webkit-transform: translateZ(0); /* Fix chrome pixel shift */
@@ -214,7 +225,7 @@ footer hr {
 
 @media screen and (min-width: 40em) {
   .gallery .grid-2 {
-    width: 33.3333333%;
+    width: 92.3333333%;
   }
 }
 
